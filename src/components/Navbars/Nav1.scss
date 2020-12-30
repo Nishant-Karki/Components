@@ -1,0 +1,94 @@
+.appbar {
+  background: transparent;
+  box-shadow: none;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.nav-ul {
+  li {
+    margin-left: 5%;
+  }
+}
+
+.link {
+  color: whitesmoke;
+  &:hover {
+    text-decoration: none;
+    color: grey;
+  }
+}
+
+.toggleDropdown-home {
+  &:hover ~ .navDropdown-home {
+    display: inline-block;
+  }
+}
+
+@mixin navDropdown($margin-left) {
+  z-index: 9999;
+  position: absolute;
+  display: none;
+  width: 8rem;
+  height: 6rem;
+  margin-left: $margin-left;
+
+  &:hover {
+    display: inline-block;
+  }
+}
+.navDropdown-home {
+  @include navDropdown($margin-left: -8%);
+}
+
+@mixin contentDropdown($margin-left) {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: $margin-left;
+  min-width: 8rem;
+  min-height: 6rem;
+  padding: 0.9rem;
+}
+.contentDropdown-home {
+  @include contentDropdown($margin-left: 0rem);
+}
+
+.demo1,
+.demo2,
+.demo3 {
+  &:hover {
+    color: grey;
+  }
+}
+
+.icons-ul {
+  float: right;
+}
+
+.menu-icon {
+  float: right;
+  margin-top: -1.5rem;
+  margin-right: 1.7rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.drawer-navlinks {
+  display: block;
+  margin-left: 1.5rem;
+}
+
+.drawer-links {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-top: 2rem;
+  &:hover {
+    text-decoration: none;
+    color: grey;
+  }
+}
