@@ -1,0 +1,131 @@
+h1{
+  margin-left: 2rem;
+}
+
+.row {
+  display: flex;
+  background-color: #fff;
+  margin: 1rem 1rem;
+  padding: 1rem;
+}
+
+.item {
+  margin: 1rem;
+  flex: 1;
+  align-items: center;
+}
+
+.img {
+  text-align: center;
+}
+
+.product-desc {
+  align-content: center;
+  text-align: center; 
+}
+
+h4 {
+  font-weight: normal;
+  color: black;
+  /* padding: 0.5rem;  */
+}
+
+p {
+  font-size: small;
+  color: #949494;
+  /* padding: 0.25rem;  */
+}
+
+h5 {
+  color: black;
+  padding: 0.5rem; 
+}
+
+.btn {
+  color: #fff;
+  background-color: #00e6e6;
+  border-radius: 5px;
+}
+
+//for card1
+.card1 {  
+  .img {
+    overflow: hidden; 
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.7s; 
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    background-color: #01c7c7;
+  }
+}
+
+.card1:hover  h5 {
+  color: #fff;
+  background-color: #00e6e6;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 1.75rem;
+}
+
+.card2{
+  position: relative;
+  width: auto;
+
+  h5 {
+    font-weight: normal;
+  }
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+  .btn {
+    margin-top: 12rem;
+  }
+}
+
+.card2:hover .overlay {
+  opacity: 1;
+
+  .btn {
+    cursor: pointer;
+    background-color: #01c7c7;
+    margin-left: .7rem;
+  }
+}
+
+.card3 {
+  .img {
+    background: url("ladies-6-beige-1_396x.webp") no-repeat;
+    height: 20.5rem;
+    width: 16rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img:hover{
+    background: url("jacket.webp") no-repeat;
+    height: 20.5rem;
+    width: 16rem;
+    background-position: center;
+    // transition-duration: 0.5s;
+  }
+}
+

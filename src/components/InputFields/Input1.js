@@ -41,6 +41,29 @@ export default function Input1() {
               color="secondary"
             />
           </div>
+          <div className={classes.inputs}>
+            <TextField  
+              label="Input field 1" 
+              className="field" 
+            />
+          </div>
+          <div className={classes.inputs}>
+            <TextField
+                id="filled-required"
+                label="Input field 2"
+                // defaultValue="Hello World"
+                variant="filled"
+                className="field"
+              />
+          </div>
+          <div className={classes.inputs}>
+            <TextField
+              id="outlined-required"
+              label="Input field 3"
+              variant="outlined"
+              className="field"
+              />
+          </div>
         </Box>
       </Container>
     </>

@@ -1,0 +1,43 @@
+
+  .row {
+    background-color:#fff;
+    display: flex;
+    padding: 1rem; 
+    padding-bottom: 0;
+    margin-bottom: 0%;
+  }
+
+  .container1 {
+    flex: 1;
+    margin: 1rem 0.5rem ; 
+    margin-bottom: 0%;
+    color: #000;
+
+    ul {
+      text-decoration: none;
+      display: block;
+      list-style: none;
+      padding-left: 0; }
+
+    ul li {
+      padding: 0.25rem 0; 
+      font-size: medium;}
+
+    ul li:hover {
+    color: #00e6e6; 
+    cursor: pointer;}
+
+  }
+
+  .bottom {
+    background-color: #bbb;
+    text-align: center; }
+
+  h3{
+    font-weight: normal;
+  }
+
+  p{
+    color: black;
+    font-size: medium;
+  }

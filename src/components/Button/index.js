@@ -3,6 +3,7 @@ import React from "react";
 import Btn1 from "./Btn1";
 import Btn2 from "./Btn2";
 import Btn3 from "./Btn3";
+import ButtonExample from "./ButtonExample";
 
 export default function index() {
   return (
@@ -22,6 +23,9 @@ export default function index() {
             </div>
             <div>
               <Btn3 />
+            </div>
+            <div>
+              <ButtonExample />
             </div>
           </Box>
         </Container>
