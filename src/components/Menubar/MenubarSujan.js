@@ -8,35 +8,14 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import IconButton from '@material-ui/core/IconButton';
 import Fade from '@material-ui/core/Fade';
 
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
 import SendIcon from '@material-ui/icons/Send';
 import WcIcon from '@material-ui/icons/Wc';
 import { ThemeProvider } from '@material-ui/styles';
 import theme from '../../ui/Theme';
-
-const options = [
-  'None',
-  'Atria',
-  'Callisto',
-  'Dione',
-  'Ganymede',
-  'Hangouts Call',
-  'Luna',
-  'Oberon',
-  'Phobos',
-  'Pyxis',
-  'Sedna',
-  'Titania',
-  'Triton',
-  'Umbriel',
-];
-
-const ITEM_HEIGHT = 48;
 
 const StyledMenu = withStyles({
   paper: {
@@ -85,7 +64,6 @@ const StyledMenuItem = withStyles((theme) => ({
 const MenubarSujan = () => {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
-  const [longMenu, setLongMenu] = React.useState(null);
   const [customMenu, setCustomMenu] = React.useState(null);
   const [gender, setGender] = React.useState(null);
 
