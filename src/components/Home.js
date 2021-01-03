@@ -1,6 +1,7 @@
 import React from 'react';
 import Cards from './Cards';
 import Buttons from './Button';
+import BreadCrumb from './Breadcrumb';
 import Input1 from './InputFields/Input1';
 import Nav1 from './Navbars/Nav1';
 import Footer from './Footer/Footer';
@@ -16,6 +17,7 @@ export default function Home() {
       <Cards />
       <Buttons />
       <Input1 />
+      <BreadCrumb />
       <Nav2 />
       <Nav3 />
       <NavbarSujanMaterialUI />
