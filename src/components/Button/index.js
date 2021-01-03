@@ -1,19 +1,19 @@
-import { Container, Box, Typography } from "@material-ui/core";
-import React from "react";
-import Btn1 from "./Btn1";
-import Btn2 from "./Btn2";
-import Btn3 from "./Btn3";
-
+import { Container, Box, Typography } from '@material-ui/core';
+import React from 'react';
+import Btn1 from './Btn1';
+import Btn2 from './Btn2';
+import Btn3 from './Btn3';
+import BtnSujan from './BtnSujan';
 export default function index() {
   return (
     <>
-      <div id="buttons" style={{ paddingTop: "0.5rem" }}></div>
+      <div id='buttons' style={{ paddingTop: '0.5rem' }}></div>
       <div>
-        <Container style={{ marginTop: "5rem" }}>
-          <Typography variant="h4" align="center">
+        <Container style={{ marginTop: '5rem' }}>
+          <Typography variant='h4' align='center'>
             BUTTONS
           </Typography>
-          <Box textAlign="center" style={{ marginTop: "1rem" }}>
+          <Box textAlign='center' style={{ marginTop: '1rem' }}>
             <div>
               <Btn1 />
             </div>
@@ -26,6 +26,7 @@ export default function index() {
           </Box>
         </Container>
       </div>
+      <BtnSujan />
     </>
   );
 }

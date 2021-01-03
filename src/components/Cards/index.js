@@ -1,19 +1,19 @@
-import { Box, Container, Grid, Typography } from "@material-ui/core";
-import React from "react";
-import Card1 from "./Card1";
-import Card2 from "./Card2";
-import Card3 from "./Card3";
+import { Box, Container, Grid, Typography } from '@material-ui/core';
+import React from 'react';
+import Card1 from './Card1';
+import Card2 from './Card2';
+import Card3 from './Card3';
 
 export default function index() {
   return (
     <>
-      <div id="cards" style={{ paddingTop: "0.5rem" }}></div>
+      <div id='cards' style={{ paddingTop: '0.5rem' }}></div>
 
-      <Container style={{ marginTop: "10rem" }}>
-        <Typography align="center" variant="h4">
+      <Container style={{ marginTop: '10rem' }}>
+        <Typography align='center' variant='h4'>
           CARDS
         </Typography>
-        <Box style={{ marginTop: "3rem" }}>
+        <Box style={{ marginTop: '3rem' }}>
           <Grid container spacing={4}>
             <Grid item sm={4}>
               <Card3 />
