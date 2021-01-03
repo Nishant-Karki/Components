@@ -9,6 +9,7 @@ import Nav2 from './Navbars/Nav2';
 import Nav3 from './Navbars/Nav3';
 import NavbarSujanMaterialUI from './Navbars/NavbarSujanMaterialUI';
 import NavbarSujanReactStrap from './Navbars/NavbarSujanReactStrap';
+import Menubar from './Menubar';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Cards />
       <Buttons />
       <Input1 />
+      <Menubar />
       <BreadCrumb />
       <Nav2 />
       <Nav3 />

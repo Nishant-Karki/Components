@@ -46,7 +46,13 @@ const BreadcrumbSujan = () => {
     <Grid container direction='row'>
       <Grid item container direction='column' justify='center' spacing={2}>
         <Grid item>
-          <Typography variant='h5' component='h2' align='center' gutterBottom>
+          <Typography
+            variant='h5'
+            component='h2'
+            align='center'
+            gutterBottom
+            style={{ marginTop: '40px' }}
+          >
             Breadcrumb component made by Sujan
           </Typography>
         </Grid>
