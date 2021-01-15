@@ -4,7 +4,7 @@ import "./card.scss";
 function Cards() {
   return (
     <div>
-      <h1>Cards</h1>
+      <h1>Cards by Rovan</h1>
       <div className="row">
         {/* card1 */}
         <div className="card1 item">
